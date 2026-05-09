@@ -1,0 +1,16 @@
+{
+  "name": "hydrogen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "budo src/main.js:build/bundle.js --host localhost --live"
+  },
+  "author": "no_carrier",
+  "license": "ISC",
+  "dependencies": {
+    "budo": "^10.0.4",
+    "pixi.js": "^4.8.1",
+    "three": "^0.86.0"
+  }
+}
